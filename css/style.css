@@ -1460,3 +1460,12 @@ input[type=number]::-webkit-outer-spin-button {
         display: none !important
     }
 }
+.table-custom thead th a{
+    vertical-align: top;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #8e8e8e;
+    text-transform: uppercase;
+
+}
