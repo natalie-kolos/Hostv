@@ -1,174 +1,223 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="h-100">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
 
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
     <title>HosTV</title>
-</head>
+  </head>
 
-<body class="bg-custom d-flex flex-column h-100">
+  <body class="bg-custom d-flex flex-column h-100 homepage">
     <header>
-        <div class="container-custom">
-            <nav class="navbar navbar-custom">
-                <a class="navbar-brand mr-auto" href="#"><img src="img/logo.svg" alt="">
-                </a>
-                <div class="nav-btn-group">
-                    <a href="#" class="btn btn-primary">Rent Now</a>
-                    <a href="#" class="btn btn-primary-outline">Log In</a>
-                    <a href="#" class="btn btn-primary-outline-secondary d-inline-flex d-sm-none">FR</a>
-                    <div class="btn-group d-none d-sm-inline-flex">
-                        <button type="button" class="btn dropdown-toggle btn-custon-text-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            English
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <button class="dropdown-item" type="button"> English</button>
-                            <button class="dropdown-item" type="button">Français</button>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="hero">
-            <div class="hero_description">
-                <h1>Let's make your stay <br class="d-none d-md-block">
-                    more enjoyable <br class="d-none d-md-block">
-                    <span>in a 3 easy steps</span>
-                </h1>
-                <ol>
-                    <li>Create an account</li>
-                    <li>Select your bed location and rent TV</li>
-                    <li>Enjoy your favorite TV programs</li>
-                </ol>
-                <div class="d-flex align-items-center flex-wrap">
-                    <a href="#" class="btn btn-primary btn-xl mr-3 mb-3">Get Started</a>
-                    <p class="mb-0 hero-phone">
-                        or call us <a href="tel:18882433033">1-888-243-3033</a>
-                    </p>
-                </div>
+      <div class="container-custom">
+        <nav class="navbar navbar-custom">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo.svg" alt="" />
+          </a>
+          <div class="nav-btn-group">
+            <a href="#" class="btn btn-primary">Rent Now</a>
+            <a href="#" class="btn btn-primary-outline">Log In</a>
+            <a
+              href="#"
+              class="btn btn-primary-outline-secondary d-inline-flex d-sm-none"
+              >FR</a
+            >
+            <div class="btn-group d-none d-sm-inline-flex">
+              <button
+                type="button"
+                class="btn dropdown-toggle btn-custon-text-secondary"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                English
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">English</button>
+                <button class="dropdown-item" type="button">Français</button>
+              </div>
             </div>
-            <picture>
-                <source media="(min-width: 1200px)" srcset="./img/img-hero-lg.png">
-                <source media="(min-width: 992px)" srcset="./img/img-hero-md.png">
-                <img src="./img/img-hero-sm.jpg" class="img-fluid">
-            </picture>
+          </div>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="hero_description">
+          <h1>
+            Let's make your stay <br class="d-none d-md-block" />
+            more enjoyable <br />
+            <span>in a 3 easy steps</span>
+          </h1>
+          <ol>
+            <li>Create an account</li>
+            <li>Select your bed location and rent TV</li>
+            <li>Enjoy your favorite TV programs</li>
+          </ol>
+          <div
+            class="d-flex flex-column flex-sm-row align-items-center flex-wrap text-center text-sm-left"
+          >
+            <a href="#" class="btn btn-primary btn-xl mr-sm-3 mb-3"
+              >Get Started</a
+            >
+            <p class="mb-0 hero-phone">
+              or call us
+              <a class="phone-link" href="tel:18882433033">1-888-243-3033</a>
+            </p>
+          </div>
         </div>
-
+        <picture>
+          <source media="(min-width: 1200px)" srcset="./img/img-hero-lg.png" />
+          <source media="(min-width: 992px)" srcset="./img/img-hero-md.png" />
+          <img src="./img/img-hero-sm.jpg" class="img-fluid" />
+        </picture>
+      </div>
     </header>
     <section class="promo section-mb">
-        <div class="container-custom">
-            <div class="promo-card-row">
-                <div class="promo-card">
-                    <div class="promo-card_description">
-                        <h3>BOGO Deal</h3>
-                        <p>For long term patients, we offer a special rate. After paying for 14 consecutive days, each time you pay 1 day, you get 1 free until the end of your stay!</p>
-                    </div>
-                    <div class="promo-card_img" style="background-image: url(img/img-promo-01.jpg);">
-                    </div>
-                </div>
-                <div class="promo-card">
-                    <div class="promo-card_description">
-                        <h3>TV Rental Gift Program</h3>
-                        <p>Family or friends can offer the rental as a gift to the patient during their hospital stay. This is an excellent gift to make the patients stay more enjoyable.</p>
-                    </div>
-                    <div class="promo-card_img" style="background-image: url(img/img-promo-02.jpg);">
-                    </div>
-                </div>
+      <div class="container-custom">
+        <div class="promo-card-row">
+          <div class="promo-card">
+            <div class="promo-card_description">
+              <h3>BOGO Deal</h3>
+              <p>
+                For long term patients, we offer a special rate. After paying
+                for 14 consecutive days, each time you pay 1 day, you get 1 free
+                until the end of your stay!
+              </p>
             </div>
-
+            <div
+              class="promo-card_img"
+              style="background-image: url(img/img-promo-01.jpg)"
+            ></div>
+          </div>
+          <div class="promo-card">
+            <div class="promo-card_description">
+              <h3>TV Rental Gift Program</h3>
+              <p>
+                Family or friends can offer the rental as a gift to the patient
+                during their hospital stay. This is an excellent gift to make
+                the patients stay more enjoyable.
+              </p>
+            </div>
+            <div
+              class="promo-card_img"
+              style="background-image: url(img/img-promo-02.jpg)"
+            ></div>
+          </div>
         </div>
-
+      </div>
     </section>
     <section>
-        <div class="container-custom">
-            <h2 class="title-icon"><img src="img/icon-map.svg" alt=""> Available in hospitals</h2>
-            <div class="hostitals-carousel">
-                <div class="hostitals-carousel_block_wrap">
-                    <div class="hostitals-carousel_block">
-                        <img src="img/img-hospital-01.jpg" alt="">
-                        <div class="hostitals-carousel_block_descr">
-                            <h4>Moncton Regional Hospital</h4>
-                            <p>Moncton NB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="hostitals-carousel_block_wrap">
-                    <div class="hostitals-carousel_block">
-                        <img src="img/img-hospital-01.jpg" alt="">
-                        <div class="hostitals-carousel_block_descr">
-                            <h4>Moncton Regional Hospital</h4>
-                            <p>Moncton NB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="hostitals-carousel_block_wrap">
-                    <div class="hostitals-carousel_block">
-                        <img src="img/img-hospital-01.jpg" alt="">
-                        <div class="hostitals-carousel_block_descr">
-                            <h4>Moncton Regional Hospital</h4>
-                            <p>Moncton NB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="hostitals-carousel_block_wrap">
-                    <div class="hostitals-carousel_block">
-                        <img src="img/img-hospital-01.jpg" alt="">
-                        <div class="hostitals-carousel_block_descr">
-                            <h4>Moncton Regional Hospital</h4>
-                            <p>Moncton NB</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-custom">
+        <h2 class="title-icon">
+          <img src="img/icon-map.svg" alt="" /> Available in hospitals
+        </h2>
+        <div class="hostitals-carousel">
+          <div class="hostitals-carousel_block_wrap">
+            <div class="hostitals-carousel_block">
+              <img src="img/img-hospital-01.jpg" alt="" />
+              <div class="hostitals-carousel_block_descr">
+                <h4>Moncton Regional Hospital</h4>
+                <p>Moncton NB</p>
+              </div>
             </div>
+          </div>
+          <div class="hostitals-carousel_block_wrap">
+            <div class="hostitals-carousel_block">
+              <img src="img/img-hospital-01.jpg" alt="" />
+              <div class="hostitals-carousel_block_descr">
+                <h4>Moncton Regional Hospital</h4>
+                <p>Moncton NB</p>
+              </div>
+            </div>
+          </div>
+          <div class="hostitals-carousel_block_wrap">
+            <div class="hostitals-carousel_block">
+              <img src="img/img-hospital-01.jpg" alt="" />
+              <div class="hostitals-carousel_block_descr">
+                <h4>Moncton Regional Hospital</h4>
+                <p>Moncton NB</p>
+              </div>
+            </div>
+          </div>
+          <div class="hostitals-carousel_block_wrap">
+            <div class="hostitals-carousel_block">
+              <img src="img/img-hospital-01.jpg" alt="" />
+              <div class="hostitals-carousel_block_descr">
+                <h4>Moncton Regional Hospital</h4>
+                <p>Moncton NB</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <footer class="mt-auto">
-        <div class="container-custom">
-            <div class="footer-content">
-                <div class="footer-copy">
-                    <p>© 2022 HosTV <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
-                </div>
-                <div class="footer-pay">
-                    <img src="img/icon-visa.svg" alt="">
-                    <img src="img/icon-mastercard.svg" alt="">
-                    <img src="img/icon-american-express.svg" alt="">
-                </div>
-                <div class="footer-links">
-                    <a href="#"><img src="img/icon-globe.svg" alt="">Hostv Website</a>
-                    <a href="#"><img src="img/icon-key.svg" alt="">Staff Log In</a>
-                </div>
-            </div>
+      <div class="container-custom">
+        <div class="footer-content">
+          <div class="footer-copy">
+            <p>
+              © 2022 HosTV <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+            </p>
+          </div>
+          <div class="footer-pay">
+            <img src="img/icon-visa.svg" alt="" />
+            <img src="img/icon-mastercard.svg" alt="" />
+            <img src="img/icon-american-express.svg" alt="" />
+          </div>
+          <div class="footer-links">
+            <a href="#"><img src="img/icon-globe.svg" alt="" />Hostv Website</a>
+            <a href="#"><img src="img/icon-key.svg" alt="" />Staff Log In</a>
+          </div>
         </div>
+      </div>
     </footer>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/custom.js"></script>
-
-
-</body>
-
+  </body>
 </html>
