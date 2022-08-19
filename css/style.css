@@ -1179,13 +1179,13 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-right: auto;
 }
 
-.title-icon img {    
-    margin-right: 10px;    
-  }
+.title-icon img {
+  margin-right: 10px;
+}
 
-.textpage-content{
-margin-top: 24px;
-  }
+.textpage-content {
+  margin-top: 24px;
+}
 
 @media (max-width: 1440px) {
   .hero {
@@ -1270,7 +1270,7 @@ margin-top: 24px;
   }
 
   .title-icon img {
-    max-width: 24px;       
+    max-width: 24px;
   }
 
   h2.title-icon {
@@ -1380,10 +1380,9 @@ margin-top: 24px;
     margin-top: 16px;
   }
 
-  .footer-links a{
-margin-bottom: 16px;
+  .footer-links a {
+    margin-bottom: 16px;
   }
-  
 
   .authorization-title h1 {
     font-size: 32px;
@@ -1449,14 +1448,13 @@ margin-bottom: 16px;
     margin: 0 24px;
   }
 
-  .footer-copy p {  
-    display: flex;  
+  .footer-copy p {
+    display: flex;
     flex-direction: column;
-}
-.footer-copy p a {    
+  }
+  .footer-copy p a {
     margin-top: 16px;
-}
-
+  }
 }
 
 @media (max-width: 575px) {
@@ -1488,9 +1486,11 @@ margin-bottom: 16px;
     margin-top: 12px;
   }
 
-  .slick-prev, .slick-next {    
-    top: 45%!important;
-}
+  .slick-prev,
+  .slick-next {
+    top: 45% !important;
+  }
+
 
 @media (min-width: 992px) {
   #account-nav {
