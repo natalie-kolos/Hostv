@@ -23,11 +23,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
     <title>HosTV</title>
   </head>
 
@@ -77,14 +80,13 @@
                 aria-expanded="false"
               >
                 <span class="text-left"
-                  ><span class="account-name">Full Name</span></span
+                  ><span class="account-name">Full Name</span
+                  ><br />4324324</span
                 >
               </button>
               <div class="dropdown-menu dropdown-menu-right">
                 <button class="dropdown-item" type="button">Account</button>
-                <button class="dropdown-item" type="button">
-                  Headset Reports
-                </button>
+                <button class="dropdown-item" type="button">My Orders</button>
                 <button class="dropdown-item" type="button">Logout</button>
               </div>
             </div>
@@ -122,17 +124,16 @@
           >
             <ul class="navbar-nav ml-lg-auto mr-lg-0 m-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">All Orders</a>
+                <a class="nav-link" href="#">Channel Guide</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="btn btn-primary mt-3 mt-lg-0"
-                  ><img src="img/icon-plus.svg" alt="" /> New Order</a
-                >
+                <a class="nav-link" href="#">Pricing</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="btn btn-primary-outline ml-lg-2 mt-3 mt-lg-0"
-                  >Make A Report</a
-                >
+                <a class="nav-link" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-primary mt-3 mt-lg-0">Rent Now</a>
               </li>
             </ul>
           </div>
@@ -146,7 +147,10 @@
             <ul class="navbar-nav ml-lg-auto mr-lg-0 m-auto w-100">
               <li class="nav-item">
                 <a class="nav-link" href="#"
-                  ><span><span class="account-name">Full Name</span></span></a
+                  ><span
+                    ><span class="account-name">Full Name</span
+                    ><br />4324324</span
+                  ></a
                 >
               </li>
               <li class="nav-item">
@@ -163,131 +167,143 @@
         </nav>
       </div>
     </header>
-    <section class="textpage-content mb-5">
+    <section class="account-content">
       <div class="container-custom">
-        <div class="centered-wrap">
-          <div class="authorization-content centered-content">
-            <div class="authorization-title mb-5">
-              <h1>Support Request Form</h1>
-              <p>We are always here to assist you</p>
-            </div>
-            <form>
-              <div class="form-group">
-                <select
-                  class="form-control"
-                  id="exampleFormControlSelect1"
-                  placeholder="Select a topic"
-                >
-                  <option>Select a topic</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <select
-                  class="form-control"
-                  id="exampleFormControlSelect2"
-                  placeholder="Select a Hospital"
-                >
-                  <option>Select a Hospital</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                  placeholder="Description"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary mt-4 mb-5">
-                Submit
-              </button>
-              <p>
-                For any questions about TV rentals please call us at toll free
-                number:
-                <a href="tel:18882433033">1-888-243-3033</a>
-              </p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="contact bg-neutral">
-      <div class="container">
         <div class="row">
-          <div class="col-md-4 offset-md-2">
-            <div class="contact-block">
-              <div class="contact-block-title">
-                <h3>Miramichi Regional Hospital</h3>
-                <a href="tel:506623-3098"
-                  >(506) 623-3098 <span>option 6</span></a
-                >
-              </div>
-              <p>Monday – Sunday:</p>
-              <p>From 6:00 PM to 8:00 PM</p>
+          <div class="col-lg-8 offset-lg-2">
+            <h1>Pricing</h1>
+            <div class="table-responsive">
+              <table class="table table-bordered table-custom_styled-heading">
+                <thead>
+                  <tr>
+                    <th>Daily Rates</th>
+                    <th>Price For TV</th>
+                    <th>Tax 15%</th>
+                    <th>Total Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Headsets</td>
+                    <td>$3.26</td>
+                    <td>$0.48</td>
+                    <td>$3.75</td>
+                  </tr>
+                  <tr>
+                    <td>Day 1</td>
+                    <td>$10.00</td>
+                    <td>$1.50</td>
+                    <td>$11.50</td>
+                  </tr>
+                  <tr>
+                    <td>Day 2</td>
+                    <td>$20.00</td>
+                    <td>$3.00</td>
+                    <td>$23.00</td>
+                  </tr>
+                  <tr>
+                    <td>Day 3</td>
+                    <td>$30.00</td>
+                    <td>$4.50</td>
+                    <td>$34.50</td>
+                  </tr>
+                  <tr>
+                    <td>Day 4</td>
+                    <td>$40.00</td>
+                    <td>$6.00</td>
+                    <td>$46.00</td>
+                  </tr>
+                  <tr>
+                    <td>Day 5</td>
+                    <td>$50.00</td>
+                    <td>$7.50</td>
+                    <td>$57.50</td>
+                  </tr>
+                  <tr>
+                    <td>Day 6</td>
+                    <td>$60.00</td>
+                    <td>$9.00</td>
+                    <td>$69.00</td>
+                  </tr>
+                  <tr>
+                    <td>Day 7</td>
+                    <td>$70.00</td>
+                    <td>$10.5</td>
+                    <td>$80.50</td>
+                  </tr>
+                  <tr>
+                    <td>Day 8</td>
+                    <td>$80.00</td>
+                    <td>$12.00</td>
+                    <td>$92.00</td>
+                  </tr>
+                  <tr>
+                    <td>Day 9</td>
+                    <td>$90.00</td>
+                    <td>$13.5</td>
+                    <td>$103.50</td>
+                  </tr>
+                  <tr>
+                    <td>Day 10</td>
+                    <td>$100.00</td>
+                    <td>$15.00</td>
+                    <td>$115.00</td>
+                  </tr>
+                  <tr>
+                    <td>Day 11</td>
+                    <td>$110.00</td>
+                    <td>$16.5</td>
+                    <td>$126.50</td>
+                  </tr>
+                  <tr>
+                    <td>Day 12</td>
+                    <td>$120.00</td>
+                    <td>$18.00</td>
+                    <td>$138.00</td>
+                  </tr>
+                  <tr>
+                    <td>Day 13</td>
+                    <td>$130.00</td>
+                    <td>$19.5</td>
+                    <td>$149.50</td>
+                  </tr>
+                  <tr>
+                    <td>Day 14</td>
+                    <td>$140.00</td>
+                    <td>$21.00</td>
+                    <td>$161.00</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-block">
-              <div class="contact-block-title">
-                <h3>Miramichi Regional Hospital</h3>
-                <a href="tel:506623-3098">(506) 623-3098</a>
-              </div>
-              <p>Monday – Sunday:</p>
-              <p>From 6:00 PM to 8:00 PM</p>
-            </div>
-          </div>
-          <div class="col-md-4 offset-md-2">
-            <div class="contact-block">
-              <div class="contact-block-title">
-                <h3>Miramichi Regional Hospital</h3>
-                <a href="tel:506623-3098">(506) 623-3098</a>
-              </div>
-              <p>Monday – Sunday:</p>
-              <p>From 6:00 PM to 8:00 PM</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-block">
-              <div class="contact-block-title">
-                <h3>Miramichi Regional Hospital</h3>
-                <a href="tel:506623-3098">(506) 623-3098</a>
-              </div>
-              <p>Monday – Sunday:</p>
-              <p>From 6:00 PM to 8:00 PM</p>
-            </div>
-          </div>
-          <div class="col-md-4 offset-md-2">
-            <div class="contact-block">
-              <div class="contact-block-title">
-                <h3>Miramichi Regional Hospital</h3>
-                <a href="tel:506623-3098">(506) 623-3098</a>
-              </div>
-              <p>Monday – Sunday:</p>
-              <p>From 6:00 PM to 8:00 PM</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-block">
-              <div class="contact-block-title">
-                <h3>Miramichi Regional Hospital</h3>
-                <a href="tel:506623-3098">(506) 623-3098</a>
-              </div>
-              <p>Monday – Sunday:</p>
-              <p>From 6:00 PM to 8:00 PM</p>
-            </div>
+            <p>
+              For long term patients, we offer a special rate. After paying for
+              14 consecutive days, each time you pay 1 day, you get 1 free until
+              the end of your stay! Also, the headset you purchase is yours to
+              keep!
+            </p>
+
+            <p>
+              Paid Days left unused will be recorded and kept on file for 2
+              years. The patient may use them for future stays OR can transfer
+              those days to a family member or friend.
+            </p>
+
+            <p>
+              Free Days left unused will be recorded but will expire after 30
+              days. These can not be transferred to family members or friends.
+            </p>
+
+            <p>
+              In our agreements with the hospital, a portion of the rental
+              revenues is shared with Hospital Corporations. These funds go
+              towards the purchase of modern equipment that will help to improve
+              the service offered by the facility.
+            </p>
           </div>
         </div>
       </div>
     </section>
-
     <footer class="mt-auto">
       <div class="container-custom">
         <div class="footer-content">
