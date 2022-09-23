@@ -526,7 +526,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .footer-pay img {
@@ -690,11 +690,11 @@ footer {
   color: var(--primary);
 }
 
-#account-nav .account-name:after {
+/* #account-nav .account-name:after {
   content: url(..//img/icon-arrow-up.svg);
   margin-left: 10px;
   position: absolute;
-}
+} */
 
 #account-nav span {
   color: var(--text);
@@ -1539,4 +1539,23 @@ input[type="number"]::-webkit-outer-spin-button {
   letter-spacing: 0.04em;
   color: #8e8e8e;
   text-transform: uppercase;
+}
+
+.form-inline {
+  align-items: flex-start;
+}
+
+.centered-content form .form-group_plain-text {
+  max-width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(..//img/icon-calendar.svg) no-repeat;
+  width: 16px;
+  height: 18px;
+  border-width: thin;
+  background-position: right;
 }
