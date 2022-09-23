@@ -1545,8 +1545,14 @@ input[type="number"]::-webkit-outer-spin-button {
   align-items: flex-start;
 }
 
-.centered-content form .form-group_plain-text {
+.centered-content form.form_plain-text .form-group {
   max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .centered-content form.form_wide .form-group {
+    min-width: 600px;
+  }
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
