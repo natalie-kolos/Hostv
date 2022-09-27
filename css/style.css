@@ -1493,6 +1493,10 @@ input[type="number"]::-webkit-outer-spin-button {
   .footer-copy p a {
     margin-top: 16px;
   }
+
+  .form-inline .form-control {
+    width: 100%;
+  }
 }
 
 @media (max-width: 575px) {
