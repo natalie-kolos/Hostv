@@ -1454,6 +1454,11 @@ input[type="number"]::-webkit-outer-spin-button {
     flex-direction: column;
   }
 
+  .filter-filds .form-inline .form-group-search {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
   .table-legend {
     flex-direction: column;
   }
@@ -1571,10 +1576,44 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-position: right;
 }
 
+.datepicker-custom:before {
+  content: "";
+  display: block;
+  background: url(..//img/icon-calendar.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+  background-position: right;
+  position: absolute;
+  top: 8px;
+  right: 26px;
+}
+
 .text-danger {
   color: #dc3545 !important;
   display: block;
   width: 100%;
   font-size: 80%;
   margin-top: 0.25rem;
+}
+
+@media (min-width: 576px) {
+  .form-inline select.form-control {
+    width: inherit;
+  }
+}
+
+.account-content .btn {
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .account-content .btn {
+    margin: 0 0 1rem 0;
+  }
+}
+
+.rentals-item {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddedea;
 }
