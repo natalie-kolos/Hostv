@@ -413,6 +413,7 @@ h5 {
 .account-content .promo-card {
   margin: 0;
   margin-bottom: 24px;
+  margin-top: 32px;
 }
 
 .account-content .promo-card_description p {
@@ -1607,13 +1608,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   margin: 0 0.5rem 1rem 0.5rem;
 }
 
+.account-content .bnt-grout-actions .btn {
+  margin: 0;
+}
+
 @media (max-width: 576px) {
   .account-content .btn {
     margin: 0 0 1rem 0;
   }
 }
 
-.rentals-item {
-  margin-bottom: 40px;
-  border-bottom: 1px solid #ddedea;
+.rentals-item + .rentals-item {
+  margin-top: 40px;
+  padding-top: 64px;
+  border-top: 1px solid #ddedea;
+}
+
+.payment-type-select .form-check {
+  margin-top: 16px;
 }
