@@ -1627,3 +1627,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .payment-type-select .form-check {
   margin-top: 16px;
 }
+
+.info-form-p {
+  padding: 6px 2px;
+  margin-bottom: 0;
+  text-align: left;
+}
